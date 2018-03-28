@@ -28,7 +28,7 @@ namespace FizzBuzz.Tests
         [Fact]
         public void ShouldReturnBuzz(){
        
-        Assert.Equal("Fizz", fizzBuzz.Print(5));
+        Assert.Equal("Buzz", fizzBuzz.Print(5));
         
         }
         [Fact]
